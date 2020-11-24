@@ -1,0 +1,91 @@
+body {
+	font-family: "Open Sans", sans-serif;
+	background-color: #111111;
+}
+
+h1,
+h2,
+h3 {
+	font-family: "Creepster", cursive;
+}
+
+h2 {
+	color: #ff4501;
+}
+
+header h1 {
+	color: #ff7200;
+}
+
+header h2 {
+	color: #ff4501;
+}
+
+.site-footer {
+	background-image: #000000;
+	padding: 20px 0;
+	color: #ff7200;
+}
+
+.jumbotron {
+	margin: 0;
+	padding: 30px;
+	background-color: #000000;
+}
+
+#custom-btn {
+	background-color: #ff4501;
+	color: #000000;
+	border: none;
+}
+
+.row-content {
+	padding: 50px 0;
+	border-bottom: 1px ridge;
+	min-height: 200px;
+}
+
+.navbar {
+	background-color: #ff4501;
+}
+
+i {
+	color: #000000;
+}
+
+a {
+	color: #ff4501;
+}
+
+.tab-content {
+	border: 1px solid #ddd;
+	border-top: none;
+	padding: 10px;
+}
+
+.carousel-caption {
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.carousel {
+	border: solid #ff4501;
+}
+
+.card {
+	background-color: #ff7200;
+}
+.card-title {
+	font-family: "Creepster", cursive;
+	font-size: x-large;
+	color: #111111;
+}
+
+.card-header {
+	background-color: #ff4501;
+	color: #111111;
+}
+
+.btn {
+	background-color: #ff4501;
+	color: #111111;
+}
