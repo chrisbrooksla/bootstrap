@@ -41,22 +41,18 @@
 						<h2>a better way to camp
 						</h2>
 					</div>
-					<div class="">
-						<a data-toggle="modal"
-							data-target="#reserveModal"
-							data-html="true"
-							title="Or call us at <br />
-						<strong>1-206-555-1234 </strong>"
-							class="btn btn-lg btn-info"
-							href=""
-							data-placement="bottom">Reserve
-							Campsite</a>
+					<div class="col-md-4 col-xl-2 mt-4">
+						<a id="reserveButton"
+						class="btn btn-lg btn-info"
+						>Reserve Campsite</a>
+						
+						
 					</div>
 				</div>
 			</div>
 		</header>
 
-		<!-- modal -->
+		<!--  reserve modal -->
 		<div id="reserveModal"
 			class="modal fade"
 			role="dialog">
@@ -64,7 +60,7 @@
 				role="document">
 				<div class="modal-content">
 					<div
-						class="modal-header bg-info text-white">
+						class="modal-header">
 						<h3 class="modal-title">
 							Reserve a Campsite</h3>
 						<button type="button"
@@ -221,11 +217,12 @@
 								Contact</a>
 						</li>
 					</ul>
+
+					<!-- login button -->
 					<span
 						class="navbar-text ml-auto"><a
 							role="button"
-							data-toggle="modal"
-							data-target="#loginModal"><i
+							id="loginButton"><i
 								class="fa fa-sign-in"></i>Login</a></span>
 				</div>
 			</div>
